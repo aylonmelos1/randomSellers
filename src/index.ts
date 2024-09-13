@@ -7,7 +7,7 @@ const app = express();
 const httpServer = http.createServer(app);
 
 app.use(cors({
-    origin: '*', // Permitir apenas o domínio do frontend
+    origin: 'https://abacredito.com', // Permitir apenas o domínio do frontend
     methods: ['GET', 'POST', 'OPTIONS'], // Métodos permitidos
     allowedHeaders: ['Content-Type', 'Authorization'], // Cabeçalhos permitidos
     credentials: true // Permite o envio de cookies, se necessário

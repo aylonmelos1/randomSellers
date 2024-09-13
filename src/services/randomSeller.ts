@@ -4,7 +4,7 @@ let id = 0
 
 export const getNumber = async (req: Request, res: Response) => {
 	const telefones = [
-		{telefone: "5511984324059", vendedor: "Ronei Batista"},
+		{telefone: "5511984324059", vendedor: "Johnatan Gois"},
 		{telefone: "5511916055695", vendedor: "Indyra Matos"},
 		{telefone: "5521997930286", vendedor: "Nayara Gois"},
 		{telefone: "5531995240534", vendedor: "Roberta Andrade"},
