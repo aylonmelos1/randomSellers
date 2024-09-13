@@ -4,9 +4,11 @@ let id = 0
 
 export const getNumber = async (req: Request, res: Response) => {
 	const telefones = [
-		{telefone: "5573935050217", vendedor: "0 - Aylon Melo"},
-		{telefone: "5573935050217", vendedor: "1 - Aylon Melo"},
-		{telefone: "5573935050217", vendedor: "2 - Aylon Melo"}	
+		{telefone: "5511984324059", vendedor: "Ronei Batista"},
+		{telefone: "5511916055695", vendedor: "Indyra Matos"},
+		{telefone: "5521997930286", vendedor: "Nayara Gois"},
+		{telefone: "5531995240534", vendedor: "Roberta Andrade"},
+		{telefone: "5511972902045", vendedor: "Kysla Rabelo"}
 	];
 
     id = (id === telefones.length-1 ? 0 : id+1)
