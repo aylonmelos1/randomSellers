@@ -17,7 +17,12 @@ export const getNumber = async (req: Request, res: Response) => {
     const vendedor = telefones[id].vendedor
 	
     try {
-        console.log(JSON.stringify({id ,telefone, vendedor}))
+        console.log(JSON.stringify({
+            "data":{
+                "id": id,
+                "telefone": telefone,
+                "vendedor": vendedor
+            }}))
         return res.status(200).json({id ,telefone, vendedor})
     } catch (error) {
         console.error(error)
